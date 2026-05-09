@@ -7,46 +7,56 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.navbar {
+.first-section {
     background-color: #1F2937;
-    color: #FAF9F8;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-ul {
-    display: flex;
-    gap: 2rem;
+
 }
 
-.header-logo {
-    font-size: 18px;
+#header-logo {
+    font-size: 24px;
     color: #FAF9F8;
 }
 
-.header-link, .hero-secondary-text {
+.header-link {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 10px;
 }
 
-.hero {
-    background-color: #1F2937;
+.navbar, ul {
     display: flex;
+}
+
+.navbar-left,.navbar-right {
+    display: flex;
+    width: 50%;
     justify-content: center;
     align-items: center;
 }
+.hero {
+    display: flex;
+    margin: 50px;
+}
 
-.hero-main-text {
+.hero h1 {
     font-size: 48px;
     color: #FAF9F8;
     font-weight: 900;
 }
 
+.hero p {
+    font-size: 18px;
+    color: #FAF9F8;
+}
 
-.hero-image {
-    height: 200px;
-    width: 350px;
-    background-color: #1F2937;
-    border: 5px solid black;
-    flex-shrink: 0;
+.hero-left,.hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+img {
+    margin: 50px;
 }
