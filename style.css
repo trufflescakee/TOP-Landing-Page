@@ -44,12 +44,20 @@ body {
     font-weight: 900;
 }
 
-.hero p {
+.hero-secondary-text {
     font-size: 18px;
     color: #FAF9F8;
 }
 
-.hero-left,.hero-right {
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.hero-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,5 +66,13 @@ body {
 }
 
 img {
-    margin: 50px;
+    margin-bottom: 50px;
+}
+
+.sign-up-first-section {
+    background-color: #3882F6;
+    color: #FAF9F8;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
 }
