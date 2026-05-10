@@ -38,6 +38,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 ul {
@@ -62,6 +63,7 @@ ul {
     font-size: 48px;
     color: #FAF9F8;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .hero-secondary-text {
@@ -80,6 +82,10 @@ ul {
 .hero-right {
     width: 50%;
     background-color: #1F2937;
+}
+
+.hero-right img {
+    margin: 100px 0;
 }
 
 .sign-up-first-section {
