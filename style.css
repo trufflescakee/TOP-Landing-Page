@@ -7,8 +7,18 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.first-section {
+.navbar-section {
     background-color: #1F2937;
+    padding-bottom: 20px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 
 }
 
@@ -23,22 +33,28 @@ body {
     margin: 10px;
 }
 
-.navbar, ul {
+.navbar-left,.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
     display: flex;
 }
 
-.navbar-left,.navbar-right {
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
+.first-section {
+    background-color: #1F2937;
+    margin-bottom: 50px;
 }
 
 .hero {
     display: flex;
     justify-content: center;
-    margin: 50px;
-    max-width: 75%;
+    align-items: center;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .hero h1 {
@@ -57,7 +73,6 @@ body {
     flex-direction: column;
     width: 50%;
     justify-content: center;
-    margin-left: 200px;
 }
 
 .hero-right {
@@ -66,10 +81,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
-}
-
-img {
-    margin-bottom: 50px;
+    background-color: #1F2937;
 }
 
 .sign-up-first-section {
