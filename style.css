@@ -76,3 +76,17 @@ img {
     height: 35px;
     border-radius: 10px;
 }
+
+.second-section-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
