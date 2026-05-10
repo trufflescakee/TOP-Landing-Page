@@ -33,9 +33,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .hero {
     display: flex;
+    justify-content: center;
     margin: 50px;
+    max-width: 75%;
 }
 
 .hero h1 {
@@ -77,16 +80,29 @@ img {
     border-radius: 10px;
 }
 
-.second-section-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.second-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.image-subtext {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    gap: 40px;
+}
+
+.box-blue {
+    border: 3px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.container p {
+    text-align: center;
 }
