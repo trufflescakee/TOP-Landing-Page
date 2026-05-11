@@ -146,3 +146,47 @@ ul {
     align-self: flex-end;
     margin-right: 400px;
 }
+
+.fourth-section {
+    padding: 100px 100px;
+}
+
+.call-blue-box {
+    background-color: #3882F6;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 100px;
+    border-radius: 5px;
+}
+
+.calling h2 {
+    font-size: 18px;
+    color: #FAF9F8;
+}
+
+.calling p {
+    font-size: 14px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+.sign-up-button-bottom {
+    background-color: #3882F6;
+    color: #FAF9F8;
+    padding: 5px 25px;
+    border: solid 2px #FAF9F8;
+    border-radius: 10px;
+}
+
+.footer-section {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-block: 40px;
+}
