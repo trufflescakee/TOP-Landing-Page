@@ -122,3 +122,27 @@ ul {
 .container p {
     text-align: center;
 }
+
+.third-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-block: 100px;
+}
+
+.third-section p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.third-section .quoter {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    align-self: flex-end;
+    margin-right: 400px;
+}
