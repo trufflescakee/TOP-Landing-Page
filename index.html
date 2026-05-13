@@ -9,37 +9,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-        <div class="navbar-section">
-            <div class="navbar-container">
+        <header class="header">
+            <div class="navbar">
                 <div class="navbar-left">
                     <p id="header-logo">Header Logo</p>
                 </div>
                 <div class="navbar-right">
-                    <ul style="list-style-type: none;">
+                    <ul>
                         <li class="header-link">header link one</li>
                         <li class="header-link">header link two</li>
                         <li class="header-link">header link three</li>
                     </ul>
                 </div>
             </div>
-        </div>
+        </header>
 
         <div class="first-section">
             <div class="hero">
                 <div class="hero-left">
-                    <h1>This website is <br/>awesome</h1>
+                    <h1>This website is awesome</h1>
                     <p class="hero-secondary-text">This website has some subtext that goes here under the <br/>main title. It's a smaller font and the color is lower <br/>contrast. </p>
                     <button type="button" class="sign-up-first-section">Sign up</button>
                 </div>
                 <div class="hero-right">
-                    <img src="https://images.unsplash.com/photo-1619597455322-4fbbd820250a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="this is a placeholder for an image" height="374" width="680">
+                    <div class="image-placeholder"><p>this is a placeholder for an image</p></div>
                 </div>
             </div>
         </div>
 
         <div class="second-section">
+            <div class="second-section-container">
                 <h2>Some random information.</h2>
-                <div class="container">
+                <div class="blue-box-container">
                     <div class="box-blue-subtext">
                         <div class="box-blue"></div>
                         <p>this is some subtext<br/> under and illustration<br/> or image</p>
@@ -57,14 +58,17 @@
                         <p>this is some subtext<br/> under and illustration<br/> or image</p>
                     </div>
                 </div>
+            </div>
             <div class="second-section-quote"></div>
         </div>
 
         <div class="third-section">
-            <div class="quotes">
-                <p>This is an inspiring quote, or a testimonial from a</br> customer. Maybe it's just filling up space, or maybe</br> people will actually read it. Who knows? All I know</br> is that it looks nice.</p>
+            <div class="third-section-container">
+                <div class="quotes">
+                    <p><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em></p>
+                </div>
+                <div class="quoter">-Thor, God of Thunder</div>
             </div>
-            <div class="quoter">-Thor, God of Thunder</div>
         </div>
 
         <div class="fourth-section">
@@ -77,8 +81,8 @@
             </div>
         </div>
 
-        <div class="footer-section">
+        <footer class="footer">
             <p class="footer-text">Copyright © The Odin Project 2021</p>
-        </div>
+        </footer>
 </body>
 </html>

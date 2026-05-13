@@ -2,25 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    flex-wrap: wrap;
 }
 
 body {
     font-family: "Roboto", sans-serif;
 }
 
-.navbar-section {
+.header {
     background-color: #1F2937;
-    padding-bottom: 20px;
+    padding-block: 20px;
 }
 
-.navbar-container {
+.navbar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #header-logo {
@@ -36,13 +35,16 @@ body {
 
 .navbar-left,.navbar-right {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-ul {
+.navbar-right ul {
     display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
 .first-section {
@@ -52,11 +54,11 @@ ul {
 
 .hero {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .hero h1 {
@@ -73,19 +75,35 @@ ul {
 
 .hero-left {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    width: 50%;
     justify-content: center;
     padding: 10px;
+    gap: 10px;
 }
 
 .hero-right {
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
 }
 
-.hero-right img {
-    margin: 100px 0;
+.hero-left, .hero-right {
+    flex: 1;
+}
+
+.hero-right .image-placeholder {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-weight: 300;
+    border: 1px solid grey;
+    background-color: grey;
+    height: 250px;
+    margin-block: 100px;
 }
 
 .sign-up-first-section {
@@ -94,6 +112,12 @@ ul {
     width: 120px;
     height: 35px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.second-section-container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .second-section h2 {
@@ -104,8 +128,9 @@ ul {
     margin-bottom: 50px;
 }
 
-.container {
+.blue-box-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 40px;
@@ -119,13 +144,14 @@ ul {
     margin-bottom: 30px;
 }
 
-.container p {
+.blue-box-container p {
     text-align: center;
 }
 
 .third-section {
     background-color: #E5E7EB;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -133,18 +159,24 @@ ul {
     padding-block: 100px;
 }
 
-.third-section p {
+.third-section-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.third-section-container .quotes {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
 }
 
-.third-section .quoter {
+.third-section-container .quoter {
     font-size: 20px;
     font-weight: bold;
-    text-align: right;
-    align-self: flex-end;
-    margin-right: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .fourth-section {
@@ -153,14 +185,14 @@ ul {
 
 .call-blue-box {
     background-color: #3882F6;
-    max-width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 100px;
-    border-radius: 5px;
+    border-radius: 8px;
+    padding-block: 50px;
 }
 
 .calling h2 {
@@ -180,9 +212,10 @@ ul {
     padding: 5px 25px;
     border: solid 2px #FAF9F8;
     border-radius: 10px;
+    cursor: pointer;
 }
 
-.footer-section {
+.footer {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 16px;
